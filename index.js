@@ -39,7 +39,7 @@ App.use(express.json());
 
 // Enable CORS for the frontend running on localhost:3000
 App.use(cors({
-  origin: 'http://localhost:3000', // Allow requests only from this origin
+  origin: ['http://localhost:3000','https://ng-frontend-1.onrender.com'] // Allow requests only from this origin
   methods: ['GET', 'POST'], // Allow only GET and POST methods
   credentials: true, // Enable cookies and credentials
 }));
