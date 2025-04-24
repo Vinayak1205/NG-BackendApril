@@ -1,0 +1,75 @@
+{
+  "name": "notego-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/toolbar": "^3.12.0",
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.8",
+    "bad-words": "^4.0.0",
+    "body-parser": "^1.20.3",
+    "bootstrap-icons": "^1.11.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "google-auth-library": "^9.15.0",
+    "helmet": "^8.0.0",
+    "hsts": "^2.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.11.0",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7",
+    "pdf-dist": "^1.0.0",
+    "pdf.js": "^0.1.0",
+    "pdfjs": "^2.5.3",
+    "pdfobject": "^2.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-ga": "^3.3.1",
+    "react-ga4": "^2.1.0",
+    "react-hot-toast": "^2.5.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-pdf": "^9.1.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.14.1",
+    "react-spring": "^9.7.4",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}
